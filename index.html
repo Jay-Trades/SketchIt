@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchIt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <label for="size">Choose a size:</label>
+        
+        <select name='size' id='size' onchange='boardSelect()'>
+            <option value='16'>16x16</option>
+            <option value='32'>32x32</option>
+            <option value='40'>40x40</option>
+        </select>
+
+        <label for="color">Choose a color:</label>
+        <input type="color" id="color" name="color"
+        value="#e66465" onchange="changeColor()">
+
+        <button id='clear'>Clear</button>
+    </nav>
+    <div id='board'>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

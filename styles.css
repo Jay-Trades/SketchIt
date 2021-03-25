@@ -1,0 +1,36 @@
+#board{
+    width: 320px;
+    height: 320px;
+    border:  2px solid black;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+
+select{
+    margin-right: 50px;
+}
+
+input{
+    margin-right: 50px;
+}
+
+
+.grid{
+    border:1px solid;
+    height: 18px;
+    width: 18px;
+}
+
+.hover{
+    background-color: yellow;
+}

@@ -1,3 +1,11 @@
+##Simple program for the ODIN project
+
+Clear code for you to look through with comments! 
+Not alot of styling to bog down the css and format.
+
+Enjoy :)
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Jay-Trades/SketchIt/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

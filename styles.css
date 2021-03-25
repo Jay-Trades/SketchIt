@@ -1,6 +1,11 @@
 h1{
     text-align:center;
 }
+
+h2{
+    text-align:center;
+
+}
 #board{
     width: 320px;
     height: 320px;
